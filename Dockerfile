@@ -8,4 +8,4 @@ RUN apt-get update && \
 COPY create_model.py /app/create_model.py
 WORKDIR /app
 
-CMD ["freecadcmd", "create_model.py"]
+CMD ["freecadcmd", "create_model_class.py"]
